@@ -1,0 +1,60 @@
+{
+  "short_name": "Sudoku 29",
+  "name": "Sudoku 29 Puzzle Solving Site",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "bannerlogo.jpg",
+      "type": "image/png",
+      "sizes": "800x228"
+    },
+    {
+      "src": "avatars/avatar0.jpg",
+      "type": "image/png",
+      "sizes": "100x100"
+    },
+    {
+      "src": "avatars/avatar1.jpg",
+      "type": "image/png",
+      "sizes": "100x100"
+    },
+    {
+      "src": "avatars/avatar2.jpg",
+      "type": "image/png",
+      "sizes": "100x100"
+    },
+    {
+      "src": "avatars/avatar3.jpg",
+      "type": "image/png",
+      "sizes": "100x100"
+    },
+    {
+      "src": "avatars/avatar4.jpg",
+      "type": "image/png",
+      "sizes": "100x100"
+    },
+    {
+      "src": "avatars/avatar5.jpg",
+      "type": "image/png",
+      "sizes": "100x100"
+    },
+    {
+      "src": "avatars/avatar6.jpg",
+      "type": "image/png",
+      "sizes": "100x100"
+    },
+    {
+      "src": "avatars/avatar7.jpg",
+      "type": "image/png",
+      "sizes": "100x100"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

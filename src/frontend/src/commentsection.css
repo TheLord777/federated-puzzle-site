@@ -1,0 +1,214 @@
+.commentSection h3 {
+    margin-bottom: 0;
+}
+
+.commentSection hr {
+    margin-top: 1px;
+    border: 1px solid rgba(0,0,0,1);
+}
+
+.commentContent {
+    margin-bottom: 8px;
+}
+
+.commentPostBox {
+    display: grid;
+    grid-template-columns: 48px auto;
+    grid-gap: 12px;
+    margin: 16px 0 16px;
+}
+
+.commentSection .textButton {
+    border: none;
+    width: fit-content;
+    padding: 4px 12px;
+    border-radius: 4px;
+    background-color: #ededed;
+    color: #343434;
+}
+
+.commentSection .textButton[disabled] {
+    background-color: #c3c3c3;
+}
+
+.commentSection .textButton:hover {
+    background-color: #c3c3c3;
+    color: #343434;
+}
+
+.commentSection .textButton:active {
+    background-color: #848484;
+    color: #343434;
+}
+
+.commentSection .textButton[disabled]:active {
+    background-color: #c3c3c3;
+}
+
+.commentSection textarea {
+    width: 100%;
+    height: fit-content;
+    min-height: 40px;
+    resize: none;
+}
+
+.commentEditBox > button {
+    margin-left: 4px;
+}
+
+.commentPostBox .textButton, .commentEditBox .textButton {
+    float: right;
+}
+
+.comment {
+    display: grid;
+    grid-template-columns: 48px auto;
+    grid-gap: 12px;
+    margin: 16px 0 16px;
+    background-color: #ffffff;
+}
+
+.commentBody {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.commentBody.owned {
+    background-color: #fff9f9;
+    border-radius: 8px;
+}
+
+.comment > div:first-child {
+    line-height: 0;
+}
+
+.commentSection .verticalLine {
+    width: 5px;
+    background-image: linear-gradient(#343434, rgb(250, 250, 250));
+    height: calc(100% - 48px);
+    margin: 0 auto;
+    border-radius: 0 0 5px 5px;
+}
+
+.commentBody {
+    display: grid;
+    grid-template-rows: fit-content auto;
+}
+
+.commentBody > div:first-of-type{
+    vertical-align: middle;
+}
+
+.commentBody > div:first-of-type * {
+    margin-right: 8px;
+}
+
+.commentEditButton, .commentDeleteButton {
+    background-color: #fff9f9;
+    border: none;
+    vertical-align: middle;
+    color:#969696;
+    transition: 1s;
+    border-radius: 25%;
+}
+
+.commentEditButton:hover {
+    color:#000000;
+}
+
+.commentEditButton:active {
+    background-color: #ffecec;
+    transition: 0.3s;
+}
+
+.commentDeleteButton:hover {
+    background-color: #de4242;
+    color: #EEEEEE;
+    border-radius: 25%;
+}
+
+.commentDeleteButton:active {
+    background-color: #b11e1e;
+    color: #CCCCCC;
+    border-radius: 25%;
+    transition: 0.1s;
+}
+
+.commentUsername {
+    font-weight: 800;
+    text-decoration: none;
+    transition: 0.5s;
+    color: #000000;
+}
+
+.commentUsername:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.commentUsername:visited {
+    color: #000000;
+}
+
+.commentTimestamp {
+    font-style: italic;
+    color: 9a9a9a;
+}
+
+.commentText {
+    padding: 4px 0 6px;
+    word-break: break-word;
+}
+
+.commentSection .textButton.secondary {
+    background-color: #87cefa;
+    color: #3d6a86;
+    margin-bottom: 4px;
+}
+
+.commentSection .textButton.secondary:hover {
+    background-color: #78b8e0;
+    color: #3d6a86;
+}
+
+.commentSection .textButton.secondary:active {
+    background-color: #5f92b2;
+    color: #3d6a86;
+}
+
+.commentBody .commentPostBox {
+    margin-bottom: 4px;
+}
+
+.commentSection .textButton.cancel {
+    float: right;
+}
+
+.commentSection .textButton.failed, .commentSection .textButton.cancel {
+    background-color: #fa8787;
+    color: #863d3d;
+}
+
+.commentSection .textButton.failed:hover, .commentSection .textButton.cancel:hover {
+    background-color: #e07878;
+    color: #863d3d;
+}
+
+.commentSection .textButton.failed:active, .commentSection .textButton.cancel:active {
+    background-color: #b25f5f;
+    color: #863d3d;
+}
+
+.replyCharactersRemaining {
+    opacity: 0;
+    transition: 1s;
+}
+
+.replyCharactersRemaining.show {
+    opacity: 1;
+}
+
+.commentProfilePicture {
+    width: 48px;
+    height: 48px;
+}

@@ -1,0 +1,101 @@
+#landingLogo {
+	height: 8rem;
+	margin: 0 auto 2rem;
+	/*opacity: 0;
+	animation: 1s visible forwards;*/
+}
+
+.postListBox {
+    width: 100%;
+}
+
+.postListBox h2 {
+    margin-top: 0;
+    text-align: center;
+	opacity: 0;
+	animation: 0.5s ease 0s 1 normal forwards running visible
+}
+
+.postListBox p {
+	opacity: 0;
+    animation: 0.25s visible forwards;
+}
+
+.postList {
+    padding:  0;
+}
+
+.puzzlePost {
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0 2rem 1rem;
+    background: #dcdcdc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+	opacity: 0;
+	transition: 1s;
+}
+
+.puzzlePost:hover {
+	transition: 0.5s;
+	background: #bcbcbc;
+	margin: 0 0 1rem;
+}
+
+.puzzlePost div {
+    margin: 0.25rem 0;
+    line-height: 24px;
+}
+
+.postTitle {
+    font-size: 1.17em;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.postTitle:hover {
+    text-decoration: underline;
+}
+
+.postType {
+    color: #393939;
+    font-style: italic;
+}
+
+.postDescription {
+    color: #9a9a9a;
+}
+
+.postAuthor {
+    color: #9a9a9a;
+    text-decoration: none;
+	transition: 0.5s;
+}
+
+.postAuthor:visited {
+    color: #9a9a9a;
+}
+
+.postAuthor:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #000000;
+}
+
+.postActivity, .postSolved {
+    margin: 0 8px 0 0;
+}
+
+.postActivity .material-icons {
+    color: #3b3b3b;
+}
+
+.postSolved {
+    size: 1rem;
+    margin-left: 1rem;
+    color: #ff7101;
+}
+
+.postActivity span, .postSolved span {
+    vertical-align: middle;
+}

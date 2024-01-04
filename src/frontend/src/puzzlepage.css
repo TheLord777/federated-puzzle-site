@@ -1,0 +1,190 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 5px solid black;
+}
+
+.rowBorder {
+    border-bottom: 3px solid black;
+}
+
+.colBorder {
+    border-right: 3px solid black;
+}
+
+.cellInput {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px;
+    border: 1px solid black;
+}
+
+.knownValues {
+    display: flex;
+    background-color: #ffffff;
+    font-weight: 800;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px;
+    border: 1px solid #000000;
+}
+
+.x-variant {
+    background-color: #ffa500;
+}
+
+#uploadPuzzleInput {
+    margin-bottom: 1rem;
+}
+
+.submitButton {
+    background-color: #C0CE8C;
+    font-size: 30px;
+    border-radius: 8px;
+    border: 0;
+    padding: 15px 32px;
+    transition-duration: 0.4s;   
+    margin-bottom:10px;
+    width: 100%;
+}
+
+.submitButton:hover {
+    background-color: #4CAF50; /* Green */
+    color: #ffffff;
+}
+
+.submitButton:active {
+    background-color: #4CAF50; /* Green */
+}
+
+/* No change for disabled buttons */
+.submitButton:hover[disabled] {
+    background-color: #C0CE8C;
+    color: rgba(16, 16, 16, 0.3);
+}
+
+.puzzlebox {
+    width: fit-content;
+    flex-direction: column;
+    background-color: #A0A0A0;
+    border-radius: 0.5rem;
+}
+
+.puzzlebox .detailbox .detail {
+    background-color: #ffffff;
+    margin: 4px;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    display: flex;
+    border-radius: 1rem;
+}
+
+.puzzlebox .detailbox .detail .material-icons {
+    margin-right: 5px;
+}
+
+.puzzlebox .detailbox .detail a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.puzzlebox .gamebox {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+	flex-direction: column;
+    align-items: center;
+    background-color: #808080;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.puzzlecontent {
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+}
+
+.submissionBox {
+	display: flex;
+	padding: 1rem 1rem 0.5rem;
+}
+
+.puzzlebox #showMoreBox {
+    display: flex;
+    flex-direction: column;
+}
+
+#downloadFileButton {
+    color: #0000d6;
+    width: fit-content;
+    margin: 12px auto 0;
+    transition: 0.25s;
+    font-size: 24px;
+    background: none;
+    border-radius: 12px;
+    border-width: 2px;
+    line-height: 24px;
+    padding: 0;
+    border: solid 2px;
+    border-color: #0000d6;
+    text-decoration: none;
+}
+
+#downloadFileButton:hover {
+    color: #FFFFFF;
+    background-color: #00176c;
+    padding: 0 60px;
+    transition: 0.5s;
+}
+
+#postDeleteButton {
+    color: #d60000;
+    width: fit-content;
+    margin: 12px auto 0;
+    transition: 0.25s;
+    font-size: 24px;
+    background: none;
+    border-radius: 12px;
+    border-width: 2px;
+    line-height: 24px;
+    padding: 0;
+    border-color: #d60000;
+}
+
+#postDeleteButton:hover {
+    color: #FFFFFF;
+    background-color: #6c0000;
+    padding: 0 60px;
+    transition: 0.5s;
+}
+
+#postDeleteButton:hover.triggered {
+    background-color: #d60000;
+    transition: 0.25s;
+}
+
+.puzzlebox #showMoreButton {
+    margin-top: 6px;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    color: #373737;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.puzzlebox #showMoreButton:hover {
+    background: none;
+    border: none;
+    text-decoration: underline;
+    color: #000000;
+}

@@ -1,0 +1,67 @@
+.Sudoku{ 
+    min-height: 10vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center; 
+    font-size: calc(10px + 2vmin);
+    color: #ffffff;
+}
+
+#createHeader {
+    text-align: center;
+    font-size: 40px;
+}
+
+.puzzleBoxContainer {
+    display:flex;
+}
+
+.childPuzzle{
+    flex: 1;
+    margin: 0 auto;
+    width: fit-content;
+    display:flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+.cellInput.highlightCell {
+    background-color: #ffa500;
+}
+
+.submissionExtras, .submissionBox {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-width: fit-content;
+    margin: 0 auto;
+    width: 383.977px;
+}
+
+/*
+ * Content is split into two columns at 950px
+ */
+ @media screen and (min-width: 950px) {
+    .childPuzzle {
+        margin: 0 0 0 auto;
+    }
+    .submissionExtras {
+        margin: 0 auto 0 0;
+    }
+    .submissionBox {
+        grid-column: 1 / span 2;
+        width: 300px;
+    }
+}
+
+#submissionTitleInput {
+	display: block;
+	min-width: 305.41px;
+	margin: 0 0 1rem;
+	font-size: 1.25rem;
+}
+
+#submissionTitleInput:focus {
+	outline: none;
+}

@@ -1,0 +1,22 @@
+{
+    "GROUP_20_URL": "https://cs3099user20.host.cs.st-andrews.ac.uk/auth/authorize",
+    "GROUP_21_URL": "https://cs3099user21.host.cs.st-andrews.ac.uk/auth/authorize",
+    "GROUP_22_URL": "https://cs3099user22.host.cs.st-andrews.ac.uk/auth/authorize",
+    "GROUP_23_URL": "https://cs3099user23.host.cs.st-andrews.ac.uk/auth/authorize",
+    "GROUP_24_URL": "https://cs3099user24.host.cs.st-andrews.ac.uk/auth/authorize",
+    "GROUP_25_URL": "https://cs3099user25.host.cs.st-andrews.ac.uk/auth/authorize",
+    "GROUP_26_URL": "https://cs3099user26.host.cs.st-andrews.ac.uk/auth/authorize",
+    "GROUP_27_URL": "https://cs3099user27.host.cs.st-andrews.ac.uk/auth/authorize",
+    "GROUP_28_URL": "https://cs3099user28.host.cs.st-andrews.ac.uk/auth/authorize",
+    "GROUP_29_URL": "https://cs3099user29.host.cs.st-andrews.ac.uk/auth/authorize",
+    "AUTHORIZED_REDIRECTS": ["https://cs3099user29.host.cs.st-andrews.ac.uk/auth/retrieveToken/", 
+                             "https://cs3099user28.host.cs.st-andrews.ac.uk/auth/retrieveToken/",
+                             "https://cs3099user27.host.cs.st-andrews.ac.uk/auth/retrieveToken/",
+                             "https://cs3099user26.host.cs.st-andrews.ac.uk/retrieveToken/",
+                             "https://cs3099user20.host.cs.st-andrews.ac.uk/auth/retrieveToken/",
+                             "https://cs3099user23.host.cs.st-andrews.ac.uk/auth/retrieveToken/",
+                             "https://cs3099user24.host.cs.st-andrews.ac.uk/api/auth/token/",
+                             "https://cs3099user25.host.cs.st-andrews.ac.uk/auth/retrieveToken/",
+                             "https://cs3099user22.host.cs.st-andrews.ac.uk/auth/retrieveToken/",
+                             "https://cs3099user21.host.cs.st-andrews.ac.uk/auth/retrieveToken/"]
+}

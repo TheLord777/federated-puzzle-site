@@ -1,0 +1,81 @@
+.leaderboard {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.leaderboard h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.leaderboard table {
+    border-collapse: separate !important;
+    border: 3px solid #bcbcbc;
+    border-radius: 6px;
+}
+
+.leaderboard thead tr {
+    background-color: #bcbcbc;
+}
+
+.leaderboard tbody tr {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.leaderboard tbody tr:hover {
+    background-color: #ffe4cd;
+}
+
+.leaderboard tbody tr:last-child > td:first-child {
+    border-radius: 0 0 0 3px;
+}
+
+.leaderboard tbody tr:last-child > td:last-child {
+    border-radius: 0 0 3px 0;
+}
+
+td.placementCell {
+    text-align: center;
+    font-weight: 600;
+    padding-right: 6px;
+}
+
+td.placementCell > span.medalCell {
+    line-height: 24px;
+}
+
+td.placementCell > span.noMedal {
+    margin-left: 28px;
+}
+
+td.placementCell > span.medalCell > span {
+    vertical-align: middle;
+}
+
+td.placementCell > #top1 {
+    color: #D4AF37;
+}
+
+td.placementCell > #top2 {
+    color: #C0C0C0;
+}
+
+td.placementCell > #top3 {
+    color: #9F7A34;
+}
+
+td.userCell {
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+td.solvesCell {
+    text-align: center;
+}

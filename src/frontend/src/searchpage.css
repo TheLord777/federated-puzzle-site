@@ -1,0 +1,127 @@
+.searchBar {
+    line-height: 32px;
+    margin: 0 0 16px 0;
+}
+
+.searchBar > * {
+    margin: 0 8px 0 0;
+}
+
+.searchBar > span {
+    margin: 0 4px 0 16px;
+}
+
+.filterButton {
+    display: inline-block;
+    background-color: #cccccc;
+    padding: 4px 8px;
+    border-radius: 4px;
+    vertical-align: middle;
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 32px;
+    line-height: 24px;
+}
+
+.filterButton.material-icons {
+    padding: 4px;
+}
+
+.filterButton.active {
+    color: #ffffff;
+    background-color: #ff7101;
+}
+
+.filterButton span {
+    vertical-align: top;
+}
+
+.pageChanger {
+    display: inline-block;
+    margin: auto;
+    width: fit-content;
+}
+
+.pageChanger .pageNumber {
+    box-sizing: border-box;
+    min-width: 32px;
+    padding: 0 6px;
+    height: 32px;
+    border-radius: 4px;
+    margin: 0 6px;
+    background-color: #cccccc;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1rem;
+    border: none;
+}
+
+.pageChanger .pageNumber.current {
+    color: #ffffff;
+    background-color: #ff7101;
+}
+
+.pageChanger .material-icons {
+    line-height: 26px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+.pageChanger .pageNumber:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: #afafaf;
+}
+
+.pageChanger .pageNumber.current:hover {
+    background-color: #e76400;
+}
+
+.pageChanger .pageNumber:active {
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: #999999;
+}
+
+.pageChanger .pageNumber.current:active {
+    background-color: #dc5f00;
+}
+
+.searchGrid {
+    margin: 8px 0;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 8px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    min-height: 487.5;
+}
+
+.searchGrid.empty {
+    display: block;
+    height: 487.5px;
+}
+
+/*
+ * Combine columns into one under 700px
+ */
+ @media screen and (max-width: 700px) {
+    .searchGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.searchPostEntry {
+    margin: 8px 0;
+    padding: 8px 16px;
+    border-radius: 16px;
+    background: #dcdcdc;
+    overflow: hidden;
+}
+
+.searchPostEntry * {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

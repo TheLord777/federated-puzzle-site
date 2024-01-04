@@ -1,0 +1,80 @@
+.header-bar {
+    background-color: #808080;
+    box-shadow: 0 0.25rem 5px 0 rgba(0, 0, 0, .2);
+	height: 3rem;
+    display: flex;
+	text-align: left;
+	min-width: 400px;
+	transition: 0.25s;
+}
+
+.header-bar:hover {
+	box-shadow: 0 0.25rem 5px 0 rgba(0, 0, 0, .4);
+}
+
+.headerSide {
+	width: 214.45px;
+	min-width: fit-content;
+}
+
+.headerSide.left {
+	text-align: left;
+}
+
+.headerSide.right {
+	text-align: right;
+}
+
+.header-bar > div > div {
+	overflow: hidden;
+	height: 3rem;
+	display: inline-block;
+	transition-duration: 0.4s;
+}
+
+.header-bar > div > div:hover {
+    background-color: #A0A0A0;
+}
+
+.header-bar > div > div:active {
+    background-color: #727272;
+}
+
+.header-bar > div > div > a, .header-bar > div > div > div {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+    line-height: 3rem;
+    padding: 1rem 1rem;
+	display: inline;
+	cursor: pointer;
+}
+
+.header-bar .home, .header-bar .search {
+    box-sizing: border-box;
+    width: 3rem;
+    text-align: center;
+}
+
+.header-bar .home a, .header-bar .search a {
+    padding: 0 0.75rem;
+	display: inline-block;
+	height: 48px;
+}
+
+#headerlogo {
+	height: 3rem;
+	/*
+	 * Margin on left and right to fill space
+	 */
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 570px) {
+    #headerlogo {
+		visibility: hidden;
+		width: 0;
+	}
+}
